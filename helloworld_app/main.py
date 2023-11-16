@@ -1,8 +1,10 @@
 from flask import Flask
-app = Flask(__name__)
+
+app= Flask(_name_)
+
 @app.route('/')
 def hello():
-      """Hello World!!!"""
-      return 'ShreenivasanRajendren!'
-if __name__ == '__main__':
-      app.run(host='127.0.0.1', port=8080, debug=True)
+    return "Hello World"
+    
+if _name=='__main_':
+    app.run(host='127.0.0.1', port=8080, debug=True)
